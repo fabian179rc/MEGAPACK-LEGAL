@@ -62,7 +62,7 @@ export function ContentSection() {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-2 mb-8">
+        <div className="grid sm:grid-cols-2 gap-1.5 mb-8">
           {modulos.map((m, i) => (
             <motion.div
               key={i}
@@ -70,7 +70,7 @@ export function ContentSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="flex items-start gap-2.5 bg-[#16293B] border border-white/10 rounded-xl px-3 py-2.5 shadow-sm"
+              className="flex items-start gap-2 bg-[#16293B] border border-white/10 rounded-xl px-2.5 py-2 shadow-sm"
             >
               <span className="text-xl flex-shrink-0" aria-hidden="true">
                 {m.emoji}

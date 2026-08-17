@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Diagnóstico Express 10 Minutos: Veraz, Nosis y BCRA",
-    desc: "Checklist profesional para detectar si un caso es reclamable, rectificable o no viable antes de perder tiempo. Semáforo de decisión incluido.",
+    title: "Diagnóstico Express 10 Minutos",
+    desc: "Checklist con semáforo de decisión para saber si un caso es reclamable antes de perder tiempo.",
     image: "b1.webp",
   },
   {
     num: 2,
     title: "Dossier Probatorio Crediticio 2026",
-    desc: "Estructura profesional para armar el expediente digital de cada cliente con checklist documental, índice de carpeta y control de prueba faltante.",
+    desc: "Armá el expediente digital de cada cliente con checklist documental e índice de carpeta.",
     image: "b2.webp",
   },
   {
     num: 3,
-    title: "Guiones Profesionales para Clientes Veraz, Nosis y BCRA",
-    desc: "Mensajes listos para WhatsApp y llamadas. Respondé consultas, pedí documentación y cerrá servicios sin improvisar ni prometer de más.",
+    title: "Guiones para Clientes Veraz, Nosis y BCRA",
+    desc: "Mensajes listos para WhatsApp y llamadas: respondé consultas y cerrá servicios sin improvisar.",
     image: "b3.webp",
   },
   {
     num: 4,
-    title: "Tracker Legal de Plazos y Seguimiento 2026",
-    desc: "Controlá cada reclamo, vencimiento y respuesta con un sistema de seguimiento imprimible para no perder plazos ni dejar casos olvidados.",
+    title: "Tracker Legal de Plazos 2026",
+    desc: "Sistema de seguimiento imprimible para no perder plazos ni dejar casos olvidados.",
     image: "b4.webp",
   },
   {
     num: 5,
-    title: "Miniguía Anti-Errores: 25 Fallas que Arruinan un Reclamo Crediticio",
-    desc: "Los errores más comunes que hacen fracasar los reclamos de Veraz, Nosis y BCRA, con corrección recomendada y checklist de control previo al envío.",
+    title: "Miniguía Anti-Errores: 25 Fallas",
+    desc: "Los errores más comunes que hacen fracasar un reclamo, con checklist de control previo al envío.",
     image: "b5.webp",
   },
 ];
@@ -82,6 +82,9 @@ export function BonusesSection() {
                 </span>
               </div>
               <div className="px-1 pb-1 sm:px-2 sm:pb-2">
+                <h3 className="text-[#EDF2F6] font-semibold text-xs sm:text-base leading-snug mb-0.5 sm:mb-1">
+                  {b.title}
+                </h3>
                 <p className="text-[#93A7B8] text-[11px] sm:text-sm leading-snug">{b.desc}</p>
               </div>
             </motion.div>

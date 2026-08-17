@@ -46,7 +46,7 @@ export function ProblemSection() {
           Y mientras buscás, el tiempo corre y el cliente espera:
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-3">
+        <div className="grid sm:grid-cols-2 gap-2">
           {pains.map((item, i) =>
           <motion.div
             key={i}
@@ -64,9 +64,9 @@ export function ProblemSection() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-[#16293B] p-3 md:p-4 rounded-2xl shadow-sm border border-white/10">
+            className="bg-[#16293B] p-2.5 md:p-4 rounded-2xl shadow-sm border border-white/10">
 
-              <div className="flex items-center gap-2 mb-1 md:mb-1.5">
+              <div className="flex items-center gap-2 mb-0.5 md:mb-1.5">
                 <span className="text-xl md:text-3xl flex-shrink-0">
                   {item.emoji}
                 </span>
@@ -74,7 +74,7 @@ export function ProblemSection() {
                   {item.title}
                 </h3>
               </div>
-              <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed">
+              <p className="text-sm md:text-base text-[#93A7B8] leading-snug">
                 {item.desc}
               </p>
             </motion.div>
