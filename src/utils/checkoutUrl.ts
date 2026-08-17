@@ -1,4 +1,4 @@
-const CHECKOUT_BASE_URL = 'https://mega-pack-legal-danos-y-perjuicios.impultienda.ar/checkout';
+const CHECKOUT_BASE_URL = 'https://megapack-legal-desafectacion-total-inteligencia-crediticia.impultienda.ar/checkout';
 
 /**
  * Appends the current page's query string (utm_source, utm_campaign, gclid,

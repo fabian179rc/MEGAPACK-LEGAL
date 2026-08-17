@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Checklist 360° del Caso de Accidente de Tránsito",
-    desc: "Llegás a la primera entrevista sabiendo qué documentación pedir y qué señales de alerta detectar.",
+    title: "Diagnóstico Express 10 Minutos: Veraz, Nosis y BCRA",
+    desc: "Checklist profesional para detectar si un caso es reclamable, rectificable o no viable antes de perder tiempo. Semáforo de decisión incluido.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title: "Guía Express de Primera Entrevista con el Cliente",
-    desc: "Conducís la primera reunión con las preguntas clave para evaluar el caso sin improvisar.",
+    title: "Dossier Probatorio Crediticio 2026",
+    desc: "Estructura profesional para armar el expediente digital de cada cliente con checklist documental, índice de carpeta y control de prueba faltante.",
     image: "b2.webp",
   },
   {
     num: 3,
-    title: "Mapa Visual del Proceso de Daños y Perjuicios 2026",
-    desc: "Todo el proceso en una sola hoja visual, de la entrevista inicial a la sentencia.",
+    title: "Guiones Profesionales para Clientes Veraz, Nosis y BCRA",
+    desc: "Mensajes listos para WhatsApp y llamadas. Respondé consultas, pedí documentación y cerrá servicios sin improvisar ni prometer de más.",
     image: "b3.webp",
   },
   {
     num: 4,
-    title: "Mini Guía de Errores Fatales en Reclamos de Accidentes",
-    desc: "Los errores más costosos de los abogados, con la recomendación para evitar cada uno.",
+    title: "Tracker Legal de Plazos y Seguimiento 2026",
+    desc: "Controlá cada reclamo, vencimiento y respuesta con un sistema de seguimiento imprimible para no perder plazos ni dejar casos olvidados.",
     image: "b4.webp",
   },
   {
     num: 5,
-    title: "Guía Rápida de Rubros Indemnizatorios 2026",
-    desc: "Todos los rubros reclamables explicados en una guía de consulta rápida.",
+    title: "Miniguía Anti-Errores: 25 Fallas que Arruinan un Reclamo Crediticio",
+    desc: "Los errores más comunes que hacen fracasar los reclamos de Veraz, Nosis y BCRA, con corrección recomendada y checklist de control previo al envío.",
     image: "b5.webp",
   },
 ];

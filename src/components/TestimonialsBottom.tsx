@@ -6,22 +6,22 @@ const testimonials = [
   initial: 'M',
   color: 'bg-pink-100 text-pink-700',
   name: 'María L.',
-  location: 'Abogada Civil — Buenos Aires',
-  text: "Antes cada demanda me llevaba medio día. Ahora adapto el modelo en una hora, con la cuantificación resuelta."
+  location: 'Abogada Civilista — Buenos Aires',
+  text: "Antes cada consulta de Veraz me llevaba horas buscando modelos. Ahora tengo el protocolo en el PDF y resuelvo el diagnóstico en minutos."
 },
 {
   initial: 'F',
   color: 'bg-blue-100 text-blue-700',
   name: 'Federico G.',
-  location: 'Abogado Generalista — Córdoba',
-  text: 'El módulo de mediación me dio criterio para saber cuánto pedir y cuándo aceptar.'
+  location: 'Gestor Crediticio — Córdoba',
+  text: 'El módulo de prescripción me dio el criterio para refutar un dato que ya tenía 6 años. Clarísimo y con la normativa 2026 aplicada correctamente.'
 },
 {
   initial: 'V',
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Valentina R.',
-  location: 'Estudiante Avanzada de Derecho — Rosario',
-  text: 'Lo usé para mis primeras consultas reales: el cómo, el cuándo y los modelos que la facultad no enseña.'
+  location: 'Abogada Independiente — Rosario',
+  text: 'Lo usé para mis primeros reclamos reales. Los modelos de escritos me ahorraron horas. Muy completo y actualizado a 2026.'
 }];
 
 export function TestimonialsBottom() {
@@ -31,7 +31,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Otros Profesionales del Derecho
+            Lo Que Dicen Quienes Ya Tienen el MEGAPACK LEGAL 2026
           </h2>
         </div>
 

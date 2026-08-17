@@ -4,22 +4,22 @@ const pains = [
 {
   emoji: '🗂️',
   title: 'Modelos dispersos',
-  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, rehacés todo desde cero.'
+  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo rehacés todo desde cero sin saber si el modelo sigue vigente para 2026.'
 },
 {
   emoji: '⏱️',
-  title: 'Escritos que llevan horas',
-  desc: 'Demandas y cartas documento te comen tiempo que podrías usar para conseguir clientes.'
+  title: 'Trámites que llevan horas',
+  desc: 'El reclamo en Veraz, la discrepancia en BCRA y la rectificación en Nosis te comen tiempo que podrías dedicar a cerrar más casos.'
 },
 {
   emoji: '📌',
-  title: 'Cuantificación incierta',
-  desc: 'No tenés claro qué fórmulas aplicar ni cómo presentarlas ante el juez con respaldo técnico.'
+  title: 'Plazos inciertos',
+  desc: 'No tenés claro si aplicar la regla de los 2 años, los 5 años o si el dato ya venció. Un error de interpretación puede hundir el reclamo.'
 },
 {
   emoji: '🎯',
-  title: 'Poca confianza del cliente',
-  desc: 'Sin estructura sólida ni respaldo técnico, el cliente percibe inseguridad.'
+  title: 'Fundamento legal débil',
+  desc: 'Sin citar correctamente la Ley 25.326 y las resoluciones de la AAIP, tu reclamo se puede ignorar o rechazar sin respuesta técnica.'
 }];
 
 export function ProblemSection() {
@@ -28,12 +28,11 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6] uppercase">
-            ¿Te falta estructura para trabajar más liviano?
+            ¿Te falta estructura para gestionar casos de Veraz, Nosis y BCRA sin trabarte?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Sabés redactar un escrito y tenés los conocimientos del proceso,
-            pero cada caso nuevo se convierte en horas de búsqueda, armado
-            desde cero y dudas sobre qué rubro incluir o qué plazo no vencer.
+            Sabés reclamar, pero cada caso nuevo te hace perder horas
+            buscando modelos, plazos y procedimientos actualizados.
           </p>
         </div>
 
@@ -44,8 +43,7 @@ export function ProblemSection() {
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Si sos abogado joven, generalista o estudiante avanzado de Derecho
-          en Argentina, probablemente ya viviste esto:
+          Y mientras buscás, el tiempo corre y el cliente espera:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-3">

@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          ✨ MEGA PACK LEGAL DAÑOS Y PERJUICIOS
+          🚀 LANZAMIENTO 2026 · MEGAPACK LEGAL 2026
         </motion.div>
 
         <motion.h1
@@ -44,8 +44,8 @@ export function HeroSection() {
           }}
           className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          Tu práctica en accidentes de tránsito,{" "}
-          <span className="text-[#E0932E]">lista. Desde hoy.</span>
+          Si reclamás en Veraz, Nosis o BCRA sin sistema en 2026,{" "}
+          <span className="text-[#E0932E]">el dato negativo siempre gana.</span>
         </motion.h1>
 
         <motion.div
@@ -69,7 +69,7 @@ export function HeroSection() {
             height={1254}
             loading="eager"
             decoding="async"
-            alt="Mega Pack Legal Daños y Perjuicios — Edición 2026"
+            alt="MEGAPACK LEGAL 2026 — Protocolo Definitivo de Desafectación Crediticia"
             className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
         </motion.div>
@@ -89,9 +89,9 @@ export function HeroSection() {
           }}
           className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
-          Guías paso a paso, modelos de escritos, checklists procesales,
-          fórmulas de cuantificación y herramientas de gestión del caso,
-          listos para descargar y usar desde el primer día.
+          Guías paso a paso, modelos de escritos, checklists de reclamo,
+          fórmulas actualizadas y protocolos digitales, listos para usar
+          desde el primer día.
         </motion.p>
 
         <motion.div

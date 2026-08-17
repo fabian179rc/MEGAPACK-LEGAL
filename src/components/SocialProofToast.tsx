@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Mega Pack Legal Daños y Perjuicios";
+const PRODUCT_NAME = "MEGAPACK LEGAL 2026";
 
 const proofs = [
   { name: "María L.", location: "Buenos Aires", time: "hace 15 minutos" },

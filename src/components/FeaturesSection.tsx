@@ -3,24 +3,28 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Ahorrar tiempo en escritos",
-    desc: "Dejá de empezar cada demanda desde cero. Usá modelos y guías listos para adaptar al expediente.",
+    lead: "Diagnosticar casos en minutos",
+    desc: "Checklists y matrices de decisión para identificar qué tipo de reclamo corresponde antes de comprometer tiempo.",
   },
   {
-    lead: "Trabajar con más orden procesal",
-    desc: "Organizá cada etapa del caso con checklists, mapas de proceso y guías claras de actuación.",
+    lead: "Reclamar con fundamento legal",
+    desc: "Protocolos para BCRA, Veraz y Nosis con base en la Ley 25.326 actualizada, orientados a reducir rechazos e inconsistencias.",
   },
   {
-    lead: "Cuantificar con precisión",
-    desc: "Aplicá fórmulas de incapacidad (Méndez, Acciarri, Vuoto) adaptadas a la realidad económica de 2026 sin errores de cálculo.",
+    lead: "Aplicar plazos sin errores",
+    desc: "Dominá la Regla del 5/2, la caducidad del dato y los criterios de la AAIP sin depender de interpretaciones propias.",
   },
   {
-    lead: "Presentarte mejor ante tu cliente",
-    desc: "Entregá documentación sólida y profesional que aumente la percepción de valor de tu trabajo.",
+    lead: "Usar modelos listos",
+    desc: "Cartas Documento, notas de rectificación y escritos de Hábeas Data listos para adaptar sin reescribir todo desde cero.",
   },
   {
-    lead: "Cerrar cada caso con control",
-    desc: "Sabé exactamente en qué etapa estás, qué falta y cuándo vence cada plazo.",
+    lead: "Cobrar con criterio profesional",
+    desc: "Estructura de honorarios por consulta, gestión y bono de éxito para que tu servicio tenga valor de mercado real.",
+  },
+  {
+    lead: "Presentarte con autoridad",
+    desc: "Documentación sólida, actualizada y organizada que genera confianza desde la primera consulta con cada cliente.",
   },
 ];
 
@@ -30,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#EDF2F6]">
-            CON ESTE SISTEMA VAS A PODER
+            TRABAJAR CON MÉTODO Y CONFIANZA EN CADA CASO CREDITICIO
           </h2>
         </div>
 

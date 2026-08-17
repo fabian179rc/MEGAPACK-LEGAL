@@ -10,19 +10,19 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
-          🔥 Precio Especial de Lanzamiento
+          🔥 75% OFF — Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Mega Pack Legal Daños y Perjuicios{" "}
+          MEGAPACK LEGAL 2026{" "}
           <em className="italic font-bold text-[#CFE0EC]">
-            Edición 2026
+            Protocolo Definitivo
           </em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.png`}
-            alt="Mega Pack Legal Daños y Perjuicios — Edición 2026"
+            alt="MEGAPACK LEGAL 2026 — Protocolo Definitivo de Desafectación Crediticia"
             width={1254}
             height={1254}
             loading="lazy"
@@ -39,7 +39,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">51%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">75%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -55,7 +55,7 @@ export function PricingSection() {
         <div className="bg-[#16293B] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#93A7B8] text-base md:text-lg mb-3">
             Precio Normal:{" "}
-            <span className="line-through">$45.000 ARS</span>
+            <span className="line-through">$79.990 ARS</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#E0932E] text-[#0E1E2E] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -66,7 +66,7 @@ export function PricingSection() {
             Precio especial de lanzamiento:
           </p>
           <div className="font-heading text-6xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2">
-            $21.990 <span className="text-3xl md:text-4xl">ARS</span>
+            $19.990 <span className="text-3xl md:text-4xl">ARS</span>
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso instantáneo desde hoy.

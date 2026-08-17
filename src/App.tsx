@@ -4,12 +4,12 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "Mega Pack Legal Daños y Perjuicios — Edición 2026";
+  "MEGAPACK LEGAL 2026 — Desafectación y Rectificación Crediticia";
 const PAGE_DESC =
-  "Guías paso a paso, modelos de escritos, checklists procesales, fórmulas de cuantificación y herramientas de gestión del caso. Todo en PDF descargable, listo para usar desde el primer día.";
+  "Guías paso a paso, modelos de escritos, checklists de reclamo, fórmulas actualizadas y protocolos digitales, listos para usar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
 
-const SITE_URL = "https://danosyperjuicios.tupuntodigital.shop";
+const SITE_URL = "https://megapack-desafectacion.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Mega Pack Legal Daños y Perjuicios");
+    setMeta("property", "og:site_name", "MEGAPACK LEGAL 2026");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,19 +79,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Mega Pack Legal Daños y Perjuicios — Edición 2026",
+        name: "MEGAPACK LEGAL 2026 — Protocolo Definitivo de Desafectación Crediticia",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Mega Pack Legal Daños y Perjuicios",
+          name: "MEGAPACK LEGAL 2026",
         },
         offers: {
           "@type": "Offer",
-          price: "21990",
+          price: "19990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://mega-pack-legal-danos-y-perjuicios.impultienda.ar/checkout",
+          url: "https://megapack-legal-desafectacion-total-inteligencia-crediticia.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -106,24 +106,28 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "¿Es un producto físico o digital?",
-            a: "Es un producto 100% digital. Recibís el acceso al material después de la compra para descargarlo y usarlo desde tu computadora, tablet o celular en formato PDF.",
+            q: "¿Sirve si ya trabajo hace años con casos crediticios?",
+            a: "Sí. El MEGAPACK LEGAL 2026 funciona como sistema de consulta y actualización para ordenar tu práctica, reducir búsquedas y trabajar con normativa, modelos y protocolos reunidos en un solo lugar actualizado a 2026.",
           },
           {
             q: "¿Sirve para cualquier provincia de Argentina?",
-            a: "Sí. Los modelos y guías están pensados para adaptarse a CABA, Provincia de Buenos Aires y jurisdicciones del interior. Cada modelo incluye indicaciones sobre qué elementos adaptar según la jurisdicción donde ejercés.",
+            a: "Sí. La normativa de base es nacional (Ley 25.326, BCRA, AAIP). Los procedimientos de Veraz, Nosis y BCRA son iguales en todo el país. Las vías judiciales se diferencian por jurisdicción cuando corresponde.",
           },
           {
-            q: "¿Necesito experiencia previa en casos de tránsito para usarlo?",
-            a: "No. El material está diseñado especialmente para abogados jóvenes, generalistas y estudiantes avanzados que quieren tomar estos casos con seguridad y método, sin necesitar experiencia previa específica.",
+            q: "¿Necesito experiencia previa para usarlo?",
+            a: "No. El sistema está diseñado para abogados, gestores y profesionales vinculados al área legal o financiera. Cada capítulo parte desde los fundamentos y avanza hacia la acción concreta.",
           },
           {
             q: "¿Cuándo recibo el acceso?",
-            a: "De forma inmediata. Una vez confirmado el pago recibís el acceso por correo electrónico para descargar todos los archivos PDF desde cualquier dispositivo.",
+            a: "Inmediatamente después de confirmar el pago recibís el acceso digital al producto completo con todos los bonos incluidos.",
           },
           {
-            q: "¿Reemplaza el asesoramiento de un abogado senior o de un estudio jurídico?",
-            a: "No. Este material es una herramienta de organización y orientación práctica para profesionales del Derecho. No constituye asesoramiento legal particular ni reemplaza el criterio profesional habilitado para cada caso concreto.",
+            q: "¿Reemplaza el asesoramiento de un abogado senior?",
+            a: "No. Es una herramienta de organización, consulta y referencia para profesionales. No reemplaza el criterio profesional ni el asesoramiento jurídico específico de cada caso.",
+          },
+          {
+            q: "¿Puedo pedir reembolso?",
+            a: "Sí. Tenés 7 días desde la compra. Si el contenido no se corresponde con lo ofrecido, podés solicitar la devolución sin inconvenientes según las condiciones de compra.",
           },
         ].map((item) => ({
           "@type": "Question",

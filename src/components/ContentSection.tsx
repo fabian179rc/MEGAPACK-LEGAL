@@ -5,33 +5,43 @@ import { PackageOpen } from "lucide-react";
 const modulos = [
   {
     emoji: "📋",
-    title: "Guía Maestra del Proceso 2026",
-    desc: "Entendés cada etapa desde la entrevista hasta la ejecución de sentencia.",
+    title: "Marco Normativo 2026",
+    desc: "Ley 25.326, resoluciones AAIP y criterios operativos del BCRA actualizados a 2026.",
   },
   {
-    emoji: "✍️",
-    title: "Modelos de Escritos Blindados",
-    desc: "Demandas, cartas documento, pliegos y alegatos listos para adaptar.",
+    emoji: "🏦",
+    title: "BCRA: Central de Deudores",
+    desc: "Protocolo de triangulación legal: BCRA + Veraz/Equifax + Nosis, paso a paso.",
   },
   {
-    emoji: "🔢",
-    title: "Módulo de Cuantificación 2026",
-    desc: "Fórmulas de incapacidad y daño moral actualizadas a la realidad inflacionaria.",
+    emoji: "🔍",
+    title: "Reclamo en Veraz/Equifax",
+    desc: "Guía de reclamo digital con capturas actualizadas por plataforma.",
   },
   {
-    emoji: "📌",
-    title: "Checklist de Control Procesal",
-    desc: "No perdés plazos ni omitís prueba esencial en ninguna etapa.",
+    emoji: "📊",
+    title: "Rectificación en Nosis",
+    desc: "Matriz de decisión para saber qué escrito usar según el tipo de caso.",
   },
   {
-    emoji: "🤝",
-    title: "Guía de Mediación Estratégica",
-    desc: "Llegás preparado para negociar y sabés cuándo aceptar o rechazar.",
+    emoji: "⏳",
+    title: "Regla del 5/2 — Prescripción",
+    desc: "El reloj de la prescripción: regla del 5/2 y caducidad del dato negativo.",
+  },
+  {
+    emoji: "📝",
+    title: "Modelos Editables Copy-Paste",
+    desc: "Cartas documento, notas de rectificación y escritos de Hábeas Data listos para adaptar.",
+  },
+  {
+    emoji: "⚖️",
+    title: "Hábeas Data Administrativo y Judicial",
+    desc: "Escudo del Hábeas Data: vía administrativa y vía judicial diferenciadas.",
   },
   {
     emoji: "💰",
-    title: "Protocolo de Cobro de Honorarios",
-    desc: "Asegurás tu 20% desde el día uno con el Pacto de Cuota Litis correcto.",
+    title: "Unidad de Negocio y Honorarios",
+    desc: "Guía de honorarios 2026: estructura de cobro por consulta, gestión y éxito.",
   },
 ];
 
@@ -42,12 +52,12 @@ export function ContentSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             <PackageOpen className="w-4 h-4 text-[#E0932E]" />
-            Qué Incluye el Mega Pack
+            Qué Incluye el MEGAPACK LEGAL 2026
           </span>
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            📦 Todo{" "}
+            📦 Esto es lo que recibís{" "}
             <span className="italic text-[#6FA8C9]">
-              el Sistema en un Solo Producto
+              por dentro
             </span>
           </h2>
         </div>
