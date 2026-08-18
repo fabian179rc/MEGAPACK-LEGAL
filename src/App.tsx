@@ -7,7 +7,7 @@ const PAGE_TITLE =
   "MEGAPACK LEGAL 2026 — Desafectación y Rectificación Crediticia";
 const PAGE_DESC =
   "Guías paso a paso, modelos de escritos, checklists de reclamo, fórmulas actualizadas y protocolos digitales, listos para usar desde el primer día.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
+const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup10.png`;
 
 const SITE_URL = "https://megapack-desafectacion.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
